@@ -36,7 +36,7 @@ function calculateAverageGrade() {
             averageGrade = 'C';
         } else if (averageScore >= 50 && averageGrade <= 60) {
             averageGrade = 'D';
-        } else if (averageScore >= 40 && averageGrade <= 50) {
+        } else if (averageScore >= 35 && averageGrade <= 50) {
             averageGrade = 'E';
         } else {
             averageGrade = 'F';
