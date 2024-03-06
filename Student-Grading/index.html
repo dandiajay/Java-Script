@@ -1,0 +1,85 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">    
+</head>
+
+<body>
+
+
+    <div class="container w-100">
+        <h1>Student Grading System</h1>
+        <div class="row">
+            <div class="col-md-5 col-sm-10   box1" >
+                <h1>Subject</h1>
+                <form class="col-5 m-auto">
+                    <div class="form-group my-3">
+                        <label for="Sanskrit">Sanskrit</label>
+                        <input type="number" class="form-control" id="Sanskrit" min="0" max="100" maxlength="2"
+                            required>
+                    </div>
+
+                    <div class="form-group  my-3">
+                        <label for="English">English</label>
+                        <input type="number" class="form-control" id="English" min="0" max="100" maxlength="2" required>
+                    </div>
+
+                    <div class="form-group  my-3">
+                        <label for="Mathematics">Mathematics</label>
+                        <input type="number" class="form-control" id="Mathematics" min="0" max="100" maxlength="2"
+                            required>
+                    </div>
+
+                    <div class="form-group  my-3">
+                        <label for="ComputerScience">ComputerScience</label>
+                        <input type="number" class="form-control" id="ComputerScience" min="0" max="100" maxlength="2"
+                            required>
+                    </div>
+
+                    <div class="form-group  my-3">
+                        <label for="Physics">Physics</label>
+                        <input type="number" class="form-control" id="Physics" min="0" max="100" maxlength="2" required>
+                    </div>
+
+                    <div class="form-group  my-3">
+                        <label for="Social">Social</label>
+                        <input type="number" class="form-control" id="Social" min="0" max="100" maxlength="2" required>
+                    </div>
+                    <button type="button" class="btn btn-warning my-3 w-75" id="calculateButton">Calculate</button>
+                </form>
+            </div>
+
+
+            <div class="col-md-5 col-sm-10  box2">
+                <h1>Results</h1>
+                <p id="san"></p>
+                <p id="eng"></p>
+                <p id="math"></p>
+                <p id="cs"></p>
+                <p id="phy"></p>
+                <p id="soc"></p>
+                <h5 id="total"></h5>
+
+                <h5 id="averageGrade"></h5>
+                <h5 id="avg"></h5>
+                <h1 id="result"></h1>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+<script src="index.js"></script>
+</html>
